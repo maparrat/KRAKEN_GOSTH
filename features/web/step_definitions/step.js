@@ -88,6 +88,36 @@ Then('I see new member', async function () {
   });
 
 When('I click leave', async function() {
-    let element = await this.driver.$('button[data-test-leave type="button"]');
+    let element = await this.driver.$('button[class="gh-btn gh-btn-red"]');
     return await element.click();
 });
+
+Then('I see several new member', async function () {
+    let elements = await this.driver.$$('tr[data-test-list="members-list-item"]');
+    expect(elements.length).to.equal(10);
+  });
+
+When('I click Jaime member', async function() {
+    let element = await this.driver.$('img[alt="Jaime Garzon"]');
+    return await element.click();
+});
+
+When('I click settings', async function() {
+    let element = await this.driver.$('button[data-test-button="member-actions"]');
+    return await element.click();
+});
+
+When('I click delete member', async function() {
+    let element = await this.driver.$('button[data-test-button="delete-member"]');
+    return await element.click();
+});
+
+When('I click confirm delete member', async function() {
+    let element = await this.driver.$('button[data-test-button="confirm"]');
+    return await element.click();
+});
+
+Then('I see less members', async function () {
+    let elements = await this.driver.$$('tr[data-test-list="members-list-item"]');
+    expect(elements.length).to.equal(9);
+  });

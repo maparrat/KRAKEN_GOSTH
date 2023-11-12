@@ -1,5 +1,4 @@
 
-
 Feature: Verificación del Editor de Contenido en Tiempo Real
 
 @user1 @web
