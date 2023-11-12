@@ -86,3 +86,8 @@ Then('I see new member', async function () {
     let elements = await this.driver.$$('tr[data-test-list="members-list-item"]');
     expect(elements.length).to.equal(7);
   });
+
+When('I click leave', async function() {
+    let element = await this.driver.$('button[data-test-leave type="button"]');
+    return await element.click();
+});
