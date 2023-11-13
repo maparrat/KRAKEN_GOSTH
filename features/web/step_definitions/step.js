@@ -121,3 +121,18 @@ Then('I see less members', async function () {
     let elements = await this.driver.$$('tr[data-test-list="members-list-item"]');
     expect(elements.length).to.equal(9);
   });
+
+  When('I click Carlos member', async function() {
+    let element = await this.driver.$('img[alt="Carlos"]');
+    return await element.click();
+});
+
+When('I click Pepito member', async function() {
+    let element = await this.driver.$('img[alt="Pepito"]');
+    return await element.click();
+});
+
+Then('I see less several members', async function () {
+    let elements = await this.driver.$$('tr[data-test-list="members-list-item"]');
+    expect(elements.length).to.equal(7);
+  });

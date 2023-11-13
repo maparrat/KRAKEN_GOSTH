@@ -115,3 +115,87 @@ Scenario: SC09 - Eliminar un usuario de forma manual
     And I click members
     And I wait for 2 seconds
     Then I see less members
+
+    @user1 @web
+Scenario: SC10 - Eliminar varios usuarios de forma manual
+    Given I navigate to page "http://localhost:2368/ghost/"
+    And I wait for 5 seconds
+    When I enter email "ma.rinconr1@uniandes.edu.co"
+    And I wait for 2 seconds
+    And I enter password "Aurora2023*"
+    And I wait for 2 seconds
+    And I click Sign in
+    And I wait for 7 seconds
+    And I click members
+    And I wait for 5 seconds
+    And I click Pepito member
+    And I wait for 2 seconds
+    And I click settings
+    And I wait for 2 seconds
+    And I click delete member
+    And I wait for 2 seconds
+    And I click confirm delete member
+    And I wait for 2 seconds
+    And I click Carlos member
+    And I wait for 2 seconds
+    And I click settings
+    And I wait for 2 seconds
+    And I click delete member
+    And I wait for 2 seconds
+    And I click confirm delete member
+    And I wait for 2 seconds
+    And I click members
+    And I wait for 2 seconds
+    Then I see several less members
+
+   @user1 @web
+Scenario: SC11 - Editar usuario de forma manual
+    Given I navigate to page "http://localhost:2368/ghost/"
+    And I wait for 5 seconds
+    When I enter email "ma.rinconr1@uniandes.edu.co"
+    And I wait for 2 seconds
+    And I enter password "Aurora2023*"
+    And I wait for 2 seconds
+    And I click Sign in
+    And I wait for 7 seconds
+    And I click members
+    And I wait for 5 seconds
+    And I click Pepito member
+    And I wait for 2 seconds
+    And I click settings
+    And I wait for 2 seconds
+    And I click members
+    And I wait for 2 seconds
+    Then I see several less members
+
+    @user1 @web
+Scenario: SC12 - Editar usuarios de forma manual
+    Given I navigate to page "http://localhost:2368/ghost/"
+    And I wait for 5 seconds
+    When I enter email "ma.rinconr1@uniandes.edu.co"
+    And I wait for 2 seconds
+    And I enter password "Aurora2023*"
+    And I wait for 2 seconds
+    And I click Sign in
+    And I wait for 7 seconds
+    And I click members
+    And I wait for 5 seconds
+    And I click Pepito member
+    And I wait for 2 seconds
+    And I click settings
+    And I wait for 2 seconds
+    And I click delete member
+    And I wait for 2 seconds
+    And I click confirm delete member
+    And I wait for 2 seconds
+    And I click Carlos member
+    And I wait for 2 seconds
+    And I click settings
+    And I wait for 2 seconds
+    And I click delete member
+    And I wait for 2 seconds
+    And I click confirm delete member
+    And I wait for 2 seconds
+    And I click members
+    And I wait for 2 seconds
+    Then I see several less members
