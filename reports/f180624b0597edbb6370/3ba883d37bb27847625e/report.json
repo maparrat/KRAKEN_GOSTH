@@ -1,0 +1,324 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "administración-de-usuarios;sc06---creación-de-un-nuevo-usuario-de-forma-manual",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "SC06 - Creación de un nuevo usuario de forma manual",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 580000000,
+              "error_message": "FetchError: Failed to fetch browser webSocket URL from http://localhost:53635/json/version: request to http://localhost:53635/json/version failed, reason: connect ECONNREFUSED ::1:53635\n    at ClientRequest.<anonymous> (C:\\Users\\mar07\\node_modules\\node-fetch\\lib\\index.js:1491:11)\n    at ClientRequest.emit (node:events:517:28)\n    at ClientRequest.emit (node:domain:489:12)\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at Socket.emit (node:events:517:28)\n    at Socket.emit (node:domain:489:12)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to page \"http://localhost:2368/ghost/\"",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\web.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter email \"ma.rinconr1@uniandes.edu.co\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter password \"Aurora2023*\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click Sign in",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I wait for 7 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click members",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click new member",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I enter new name \"Aurora Rincon\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:72"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I enter new email \"ar.rincon@uniandes.edu.co\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:77"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click save member",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:82"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I wait for 7 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click members",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\node_modules\\kraken-node\\lib\\steps\\both.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I see new member",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:87"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 9000000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'deleteSession')\n    at WebClient.<anonymous> (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:109:59)\n    at step (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:59:23)\n    at Object.next (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:40:53)\n    at C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:34:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:30:12)\n    at WebClient.stop (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:104:16)\n    at WebClient.<anonymous> (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\Client.js:109:51)\n    at step (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\Client.js:67:23)\n    at Object.next (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\Client.js:48:53)\n    at fulfilled (C:\\Users\\mar07\\node_modules\\kraken-node\\lib\\clients\\Client.js:39:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "administración-de-usuarios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Administración de usuarios",
+    "tags": [],
+    "uri": "features\\my_first.feature"
+  }
+]

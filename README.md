@@ -5,7 +5,15 @@ Miguel Parra - ma.parrat@uniandes.edu.co
 Geovanny Gomez - g.gomezo2@uniandes.edu.co
 Miguel Rincon - ma.rinconr1@uniandes.edu.co
 
-STEPS TO RUN 
+STEPS TO RUN
+
+Incluir versiones.
+Alguien qe no sepa de programación, cómo lo instaa?
+Panallazo.
+Paso a paso.
+
+
+
 1.  RUN npm install kraken-node -g
 2.  RUN  npm install -g appium
 3.  npm install @cucumber/cucumber@latest
